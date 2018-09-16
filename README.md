@@ -6,7 +6,8 @@
 
 ### Quick summary: ###
 
-* Project is already configured for development and production use (server-sider rendering).
+* Project is already configured for development and production use (with server-sider rendering, 
+for client-only solution go to the [client-only](https://github.com/Tomekmularczyk/react-starter/tree/client-only) branch).
 * Code used for server side-rendering is not minified so its possible to debug ssr with Chrome-Node Dev-Tools.
 * Production bundle gets minified and split out with vendor dependencies.
 
