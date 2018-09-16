@@ -24,7 +24,8 @@ for client-only solution go to the [client-only](https://github.com/Tomekmularcz
 ### Technology stack: ###
 * [Redux](https://redux.js.org/) and [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
 * [@Reach/router](https://reach.tech/router)
-* [Webpack](https://webpack.js.org/) with [react-hot-loader](http://gaearon.github.io/react-hot-loader/)
+* [Webpack](https://webpack.js.org/) with [react-hot-loader](http://gaearon.github.io/react-hot-loader/) 
+and [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 * [Express](https://expressjs.com/) with [EJS](http://ejs.co/) templates for server-side rendering 
 * [styled-components](https://www.styled-components.com/)
 * [focus-ring](https://github.com/WICG/focus-visible) polyfill
