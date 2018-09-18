@@ -28,7 +28,6 @@ for client-only solution go to the [client-only](https://github.com/Tomekmularcz
 and [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 * [Express](https://expressjs.com/) with [EJS](http://ejs.co/) templates for server-side rendering 
 * [styled-components](https://www.styled-components.com/)
-* [focus-ring](https://github.com/WICG/focus-visible) polyfill
 * [Babel](https://babeljs.io/) with @babel/polyfill, @babel/preset-env and @babel/preset-react
 * [eslint](https://eslint.org/) - [airbnb](https://www.npmjs.com/package/eslint-config-airbnb) + [Prettier](https://prettier.io/)
 

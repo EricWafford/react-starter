@@ -6,7 +6,7 @@ const parts = require("./webpack.parts");
 const productionConfig = merge([
   parts.setProductionMode(),
   parts.setEntries({
-    client: ["@babel/polyfill", "wicg-focus-ring", PATHS.clientBundleEntry]
+    client: ["@babel/polyfill", PATHS.clientBundleEntry]
   }),
   parts.setOutput(PATHS.publicDirectory, true),
   parts.cleanDirectory(PATHS.mainOutputDirectory, PATHS.root),
