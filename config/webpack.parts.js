@@ -110,19 +110,22 @@ exports.setOutput = (pathToDirectory, isProduction = false) => {
 /************************************************
  *         O P T I M I Z A T I O N
  ************************************************/
-exports.createVendorChunk = entryName => ({
+// https://webpack.js.org/plugins/split-chunks-plugin/#split-chunks-example-3
+exports.createVendorChunk = moduleList => ({
   optimization: {
+    runtimeChunk: "single",
     splitChunks: {
       cacheGroups: {
         vendor: {
+          test: new RegExp(
+            `[\\/]node_modules[\\/](${moduleList.join("|")})[\\/]`
+          ),
           chunks: "initial",
-          name: entryName,
-          test: entryName,
+          name: "vendors",
           enforce: true
         }
       }
-    },
-    runtimeChunk: true
+    }
   }
 });
 

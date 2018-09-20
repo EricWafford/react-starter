@@ -9,6 +9,7 @@ const productionConfig = merge([
     client: ["@babel/polyfill", PATHS.clientBundleEntry]
   }),
   parts.setOutput(PATHS.publicDirectory, true),
+  parts.createVendorChunk(["@babel/polyfill|react|react-dom"]),
   parts.cleanDirectory(PATHS.mainOutputDirectory, PATHS.root),
   parts.resolveDependencies(),
   parts.generateGitRevision(),
