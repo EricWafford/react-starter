@@ -1,13 +1,17 @@
 # react-starter [![Prettier][prettier]][prettier] #
 
+#### For client-only solution go to the [client-only](https://github.com/Tomekmularczyk/react-starter/tree/client-only) branch.
+#### For typescript solution fo to the [with-typescript](https://github.com/Tomekmularczyk/react-starter/tree/with-typescript) branch.
+
+### Setup:
+
 1. Clone the repo.
 2. Remove existing (`rm -rf .git`) and initialize new git repo (`git init`).
 3. Change *name* in package.json file.
 
-### Quick summary: ###
+### Quick summary:
 
-* Project is already configured for development and production use (with server-sider rendering, 
-for client-only solution go to the [client-only](https://github.com/Tomekmularczyk/react-starter/tree/client-only) branch).
+* Project is already configured for development and production use with server-sider rendering, 
 * Code used for server side-rendering is not minified so its possible to debug ssr with Chrome-Node Dev-Tools.
 * Production bundle gets minified and split out with vendor dependencies.
 
