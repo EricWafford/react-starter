@@ -1,13 +1,13 @@
 # react-starter [![Prettier][prettier]][prettier] #
 
+#### For SSR solution go to the [master](https://github.com/Tomekmularczyk/react-starter/tree/master) branch.
+#### For typescript solution fo to the [with-typescript](https://github.com/Tomekmularczyk/react-starter/tree/with-typescript) branch.
+
+### Setup:
+
 1. Clone the repo.
 2. Remove existing (`rm -rf .git`) and initialize new git repo (`git init`).
 3. Change *name* in package.json file.
-
-### Quick summary: ###
-
-* Project is configured for client only development (for server-side-rendering solution go to [master](https://github.com/Tomekmularczyk/react-starter/tree/master) branch).
-* Production bundle gets minified and split out with vendor dependencies.
 
 #### Run the project:
 * `yarn` - install dependencies
